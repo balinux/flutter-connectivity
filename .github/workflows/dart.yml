@@ -7,9 +7,9 @@ name: Build and Save Artifact Build release apk
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ master ]
   pull_request:
-    branches: [ dev ]
+    branches: [ master ]
 
 jobs:
   build:
